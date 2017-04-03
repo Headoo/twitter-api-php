@@ -1,0 +1,18 @@
+{
+  "name": "headoo/twitter-api-php",
+  "description": "Simple PHP Wrapper for Twitter API v1.1 calls adapted to Symfony2 based applications",
+  "version": "0.1",
+  "type": "library",
+  "keywords": ["twitter", "PHP", "API"],
+  "homepage": "https://github.com/headoo/twitter-api-php",
+  "license": "GNU Public License",
+  "authors": [
+    {
+      "name": "Jose Ignacio Ortiz de Galisteo",
+      "homepage": "https://github.com/headoo/twitter-api-php"
+    }
+  ],
+  "autoload": {
+    "files": ["lib/TwitterAPIPHP/Connector/TwitterAPIExchange.php"]
+  }
+}
